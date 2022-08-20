@@ -5,12 +5,12 @@
     <url>/2022/08/17/Hexo-next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[<meta name="referrer" content="no-referrer" />
  Hexo是高效的静态站点生成框架，通过Hexo可以轻松编写文章，可以生成一个完全按照个人喜好而选择相应元素的博客。其中主题的渲染会让我们的网站显得更加好看，而其中next主题以简约风界面为主，点点滴滴用心雕琢的风格吸引着无数使用者。作为初学者，通过修改主题配置文件和站点配置文件(_config.yml)来完成主题的美化，当前next版本为v-8.12.3。<span id="more"></span>
-## 文章添加阴影效果
-文章与文章之间有着较为明显的间隔，方便我们点击查看，有必要的主题中添加文章阴影效果
- - 在\themes\next\source\css\_custom\custom.styl中添加代码：
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">.post &#123;</span><br><span class="line">  margin-top: 60px;</span><br><span class="line">  margin-bottom: 60px;</span><br><span class="line">  padding: 25px;</span><br><span class="line">  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);</span><br><span class="line">  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
- - 具体效果如下:
-
+ 
+<h2 id="文章添加阴影效果"><a href="#文章添加阴影效果" class="headerlink" title="文章添加阴影效果"></a>文章添加阴影效果</h2><p>文章与文章之间有着较为明显的间隔，方便我们点击查看，有必要的主题中添加文章阴影效果</p>
+<ul>
+<li>在\themes\next\source\css_custom\custom.styl中添加代码：<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">.post &#123;</span><br><span class="line">  margin-top: 60px;</span><br><span class="line">  margin-bottom: 60px;</span><br><span class="line">  padding: 25px;</span><br><span class="line">  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);</span><br><span class="line">  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure></li>
+<li>具体效果如下:</li>
+</ul>
 <p><img src="https://gitee.com/chenshaotao/blogimage/raw/master/img/essay_showdow.jpg"></p>
 <h2 id="增加本地搜索功能"><a href="#增加本地搜索功能" class="headerlink" title="增加本地搜索功能"></a>增加本地搜索功能</h2><p>本地搜索能让我们快速定位到自己需要的内容上，对站主或者用户来说都有着比较不错的体验效果。</p>
 <ul>
